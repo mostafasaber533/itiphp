@@ -80,14 +80,14 @@ class Book extends Author {
 }
 
 // مثال على استخدام الكلاسات
-$book = new Book("PHP Programming", "John Doe", "john@example.com", "M", 29.99, 100);
+$book = new Book("PHP Programming", "mostafa", "mostafa@gmail.com", "M", 29.99, 100);
 echo $book->toString() . "<br>";
 echo "Author Name: " . $book->getName() . "<br>";
 echo "Book Name: " . $book->getBookName() . "<br>";
 
 // تغيير بيانات المؤلف باستخدام setters
-$book->setName("Jane Doe");
-$book->setEmail("jane@example.com");
+$book->setName(" ");
+$book->setEmail("mostafa@gmail.com");
 echo "<br>After updating author info:<br>";
 echo $book->toString() . "<br>";
 
